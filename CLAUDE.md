@@ -7,6 +7,8 @@
 - `課程材料/`：逐字稿等輸入
 - `output/`：產出結果
 
+Git：直接在 `main` 上 commit，不開 feature branch。
+
 撰寫或修改提示詞時，遵守下面這份提示詞最佳實踐：
 
 @docs/claude-prompt-best-practices.md
