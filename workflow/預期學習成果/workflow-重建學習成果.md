@@ -6,7 +6,7 @@
 
 | 欄位     | 值                                                  |
 | -------- | --------------------------------------------------- |
-| 提示詞   | `prompts/從課程內容重建學習成果.md`                 |
+| 提示詞   | `prompts/預期學習成果/從課程內容重建學習成果.md`                 |
 | 課程名稱 | Introduction to AI for Web Developers               |
 | 課程筆記 | （無）                                              |
 | 逐字稿   | `課程材料/introduction to ai for web developers.md` |

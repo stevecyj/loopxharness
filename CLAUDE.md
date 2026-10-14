@@ -8,6 +8,8 @@
 - `課程材料/`：逐字稿等輸入
 - `output/`：產出結果
 
+`prompts/`、`standard-cards/`、`workflow/`、`output/` 統一依用途分成 `預期學習成果/`、`blog/` 子目錄。文件中的路徑以 repo 根目錄為基準。
+
 Git：直接在 `main` 上 commit，不開 feature branch。
 
 撰寫或修改提示詞時，遵守下面這份提示詞最佳實踐：
