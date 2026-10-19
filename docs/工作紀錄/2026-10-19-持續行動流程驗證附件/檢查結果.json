@@ -1,0 +1,26 @@
+{
+  "protected_or_input_changes": [],
+  "output_checks": [
+    {
+      "file": "output/blog/驗證-20261019-正常-第1次-把行動接上固定線索.md",
+      "sha256": "9a9659e48abf544c587e95df612aeab37afa493834eebb4e76d126c1a1c0d82e",
+      "structural_issues": []
+    },
+    {
+      "file": "output/blog/驗證-20261019-特殊-第1次-如何判讀成功經驗的適用範圍.md",
+      "sha256": "7b419d63f55f3077bdf528335263c5ccb9314e6e74d9a3ead7646e14acf8393a",
+      "structural_issues": []
+    },
+    {
+      "file": "output/預期學習成果/驗證-20261019-正常-第1次-從動機到持續行動.md",
+      "sha256": "4a7ba20daf434f1a3dce434143432afeb01faad13fcbd804279c465b9bb0c68d",
+      "structural_issues": []
+    },
+    {
+      "file": "output/預期學習成果/驗證-20261019-特殊-第1次-戰術性壓力的限制.md",
+      "sha256": "92ffe787b892a16ce7beca5d308a3e4de53423fd99cfc6bbb482a655a6bde76a",
+      "structural_issues": []
+    }
+  ],
+  "limit": "Only structure and selected literals; semantic acceptance separately reviewed by main agent."
+}

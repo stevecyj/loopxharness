@@ -1,0 +1,34 @@
+{
+  "files": {
+    "AGENTS.md": "78ef428a35246aba09b8898ccd5a276b9596385faad5fb24bef2a42c55fbbb47",
+    "CLAUDE.md": "78ef428a35246aba09b8898ccd5a276b9596385faad5fb24bef2a42c55fbbb47",
+    "README.md": "552b59a9c8d422ac599f5e57a154bdf79216df20d8e463d9b6123b99228b9863",
+    "docs/project-constitution.md": "a5caff7c189d6b534e16bd9681b11491e7a166f84c0468b5fe3981f6f12f9dd8",
+    "docs/流程驗證.md": "f527eeb4af5a821ed61f44217bc651e4f928fe5bb7a8287df5c70b4d8ba9281c",
+    "output/blog/採用率不等於成效：怎麼讀 AI 開發工具的數據.md": "39d20403dfe00627e0afb1403a4d64653b4d75d27adebbbae5e551ce6cb2c097",
+    "output/blog/驗證-20261019-正常-第1次-把行動接上固定線索.md": "9a9659e48abf544c587e95df612aeab37afa493834eebb4e76d126c1a1c0d82e",
+    "output/blog/驗證-20261019-正常-第2次-把行動接上固定線索.md": "b6d7e15f6f337ce15cccd48142384fb53cc132e862a9266ffb7e1ce34aeec792",
+    "output/blog/驗證-20261019-特殊-第1次-如何判讀成功經驗的適用範圍.md": "7b419d63f55f3077bdf528335263c5ccb9314e6e74d9a3ead7646e14acf8393a",
+    "output/blog/驗證-20261019-特殊-第2次-如何判讀成功經驗的適用範圍.md": "f493c18c0f170c5ccd56256e8a1ac71c0c6bff734fcd81dd3122d1272c1e78ea",
+    "output/預期學習成果/網頁開發者的 AI 入門.md": "1376a4094eb8471141159823cd937e13a37e7131fd4b048bb84937909d084841",
+    "output/預期學習成果/驗證-20261019-正常-第1次-從動機到持續行動.md": "4a7ba20daf434f1a3dce434143432afeb01faad13fcbd804279c465b9bb0c68d",
+    "output/預期學習成果/驗證-20261019-正常-第2次-從動機到持續行動.md": "be885b3f25cba49025c3bdf216340b4bea8e6342507e37925d209bf86332c758",
+    "output/預期學習成果/驗證-20261019-特殊-第1次-戰術性壓力的限制.md": "92ffe787b892a16ce7beca5d308a3e4de53423fd99cfc6bbb482a655a6bde76a",
+    "output/預期學習成果/驗證-20261019-特殊-第2次-戰術性壓力的限制.md": "2fb8e1e2bfb983b8aa69cdb8d2490116823a114aa9642dce2d6c63c1f7cc44bc",
+    "prompts/blog/把學習成果轉成blog.md": "bcdfd7bb3554a7fbbecdeae85d0b5822de7bb5bec33ecb8fd32c8f9d5a913763",
+    "prompts/預期學習成果/從課程內容重建學習成果.md": "7246b6fc15811e8c3414e0dc00a3268ff14463c0c7bd361a0645abb92a45d071",
+    "standard-cards/blog/把學習成果轉成blog.md": "9facbba6804363c4ec7f8d67b5a8c7fe50e818bb087b9ba6a22d4cdcc4d9cc4a",
+    "standard-cards/預期學習成果/從課程內容重建學習成果.md": "5ef074a0de44f87d3963488f82016ccedd05695a7d879704ba7aef294b0aa108",
+    "workflow/blog/workflow-轉成blog.md": "d141611489895afd592e23217c3c5494e85e861efbbc581a1cdf11b743a896d9",
+    "workflow/預期學習成果/workflow-重建學習成果.md": "2d8319f35a714ff9addd232105e4525dbbdd860a6183326ca80897e58eb14e43",
+    "課程材料/從動機到持續行動-使用者提供逐字稿.md": "ffcaa93de8568a92a2c61e1bf0b8ae52d42a7010bcda22956d77270836953166",
+    "課程材料/驗證-戰術性壓力-原文節錄.md": "e69ac12869e3d2fa5d6bc177aeef69ed7a906a79498b2439907e0921f0a7b3e7"
+  },
+  "round3_paths": [
+    "output/預期學習成果/驗證-20261019-正常-第3次-從動機到持續行動.md",
+    "output/blog/驗證-20261019-正常-第3次-把行動接上固定線索.md",
+    "output/預期學習成果/驗證-20261019-特殊-第3次-戰術性壓力的限制.md",
+    "output/blog/驗證-20261019-特殊-第3次-如何判讀成功經驗的適用範圍.md"
+  ],
+  "rule_snapshot": "docs/工作紀錄/2026-10-19-持續行動流程驗證附件/第3次規則快照"
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_unchanged_before_cleanup": true,
+  "outputs": {
+    "output/預期學習成果/驗證-20261019-正常-第4次-從動機到持續行動.md": "c3add4d0169e65faac7bcf759d80f351b3e294118b52f5d5ab3247306bc67a45",
+    "output/blog/驗證-20261019-正常-第4次-把行動接上固定線索.md": "55b5574a6261d1c48fd4c3bf0b8259dd23777fc8878d56d95347cb4f1ebc1274",
+    "output/預期學習成果/驗證-20261019-特殊-第4次-戰術性壓力的限制.md": "a30e5741ae13867fed67338614c221afc709f2927bc700b0db68e1976bead31a",
+    "output/blog/驗證-20261019-特殊-第4次-如何判讀成功經驗的適用範圍.md": "911df63aba932f79549ecfe562b0a42a2703a6bd59ee1b391f0d3591e4d2a164"
+  },
+  "pre_review_snapshots": {
+    "docs/工作紀錄/2026-10-19-持續行動流程驗證附件/第4次複核前產出/驗證-20261019-正常-第4次-從動機到持續行動.md": "ce8eb4d065c9d35ff1d5197f5383928bf30a3e9bdf116154034d485f929223eb",
+    "docs/工作紀錄/2026-10-19-持續行動流程驗證附件/第4次複核前產出/驗證-20261019-正常-第4次-把行動接上固定線索.md": "fa95e7b6843e5b11138f2f6a09cd32cbf988cbe012625e044bc2aed3ceb2f45c",
+    "docs/工作紀錄/2026-10-19-持續行動流程驗證附件/第4次複核前產出/驗證-20261019-特殊-第4次-如何判讀成功經驗的適用範圍.md": "df156d3aefed5494280a168536830ffa1f3b2bde4062e8d88b63d7a1b42d45da",
+    "docs/工作紀錄/2026-10-19-持續行動流程驗證附件/第4次複核前產出/驗證-20261019-特殊-第4次-戰術性壓力的限制.md": "ae68ae2e5db3a98c556efc654eddeaa9552df5c35a80bdd28d670f4166777cce"
+  },
+  "old_validation_outputs_to_delete": {
+    "output/blog/驗證-20261019-正常-第1次-把行動接上固定線索.md": "9a9659e48abf544c587e95df612aeab37afa493834eebb4e76d126c1a1c0d82e",
+    "output/blog/驗證-20261019-正常-第2次-把行動接上固定線索.md": "b6d7e15f6f337ce15cccd48142384fb53cc132e862a9266ffb7e1ce34aeec792",
+    "output/blog/驗證-20261019-正常-第3次-把行動接上固定線索.md": "6d1e7c8c6bbd267160b440767b4461457cd4c597cbb3b32d87c8431e8ac2712c",
+    "output/blog/驗證-20261019-特殊-第1次-如何判讀成功經驗的適用範圍.md": "7b419d63f55f3077bdf528335263c5ccb9314e6e74d9a3ead7646e14acf8393a",
+    "output/blog/驗證-20261019-特殊-第2次-如何判讀成功經驗的適用範圍.md": "f493c18c0f170c5ccd56256e8a1ac71c0c6bff734fcd81dd3122d1272c1e78ea",
+    "output/blog/驗證-20261019-特殊-第3次-如何判讀成功經驗的適用範圍.md": "573097aea58ea1195094fcbcd4367de0e0e951ce52f118fb549deafc0e3b276b",
+    "output/預期學習成果/驗證-20261019-正常-第1次-從動機到持續行動.md": "4a7ba20daf434f1a3dce434143432afeb01faad13fcbd804279c465b9bb0c68d",
+    "output/預期學習成果/驗證-20261019-正常-第2次-從動機到持續行動.md": "be885b3f25cba49025c3bdf216340b4bea8e6342507e37925d209bf86332c758",
+    "output/預期學習成果/驗證-20261019-正常-第3次-從動機到持續行動.md": "2c63a370534bca7bdef70c13ec4ec15f305ebc57cfc4e69f60166d91260827e8",
+    "output/預期學習成果/驗證-20261019-特殊-第1次-戰術性壓力的限制.md": "92ffe787b892a16ce7beca5d308a3e4de53423fd99cfc6bbb482a655a6bde76a",
+    "output/預期學習成果/驗證-20261019-特殊-第2次-戰術性壓力的限制.md": "2fb8e1e2bfb983b8aa69cdb8d2490116823a114aa9642dce2d6c63c1f7cc44bc",
+    "output/預期學習成果/驗證-20261019-特殊-第3次-戰術性壓力的限制.md": "e06bbaad1eb04a27a70c2553b58e147d0cc3371d02aa73b15cf3cd3b5e4402f9"
+  }
+}
