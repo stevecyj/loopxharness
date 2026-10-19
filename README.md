@@ -5,8 +5,20 @@
 ## 執行順序
 
 1. 將逐字稿等輸入放入 `課程材料/`，設定並執行[重建學習成果 workflow](workflow/預期學習成果/workflow-重建學習成果.md)。
-2. 確認學習成果的實際檔名，將其填入[轉成 blog workflow](workflow/blog/workflow-轉成blog.md) 的「Prompt 1：進階學習筆記」欄位，再執行該 workflow。
+2. 單獨執行[轉成 blog workflow](workflow/blog/workflow-轉成blog.md) 時，先將學習成果的實際檔名填入「Prompt 1：進階學習筆記」欄位；兩份 workflow 一起交給 Agent 執行時，由 Agent 依專案憲法銜接。
 
-## 驗收方式
+## 規則分工
 
-每份 workflow 指向對應提示詞；提示詞引用同名的 Standard Card，要求 Agent 寫入前逐條檢查、不符合就修改並重新檢查。Standard Card 保存固定標準與訂立原因，不記錄單次執行的 Pass／Fail。
+- **Workflow＋提示詞（Spec）**：本次任務的輸入、流程、輸出與限制。
+- **Standard Card**：單次輸出的驗收標準，保存固定條款與訂立原因，不記錄單次 Pass／Fail。
+- **[專案憲法](docs/project-constitution.md)**：全專案共享的原則與邊界，包括部分執行、本次例外與失敗處理。
+
+每份 workflow 都要求先讀取專案憲法，再讀提示詞與對應 Standard Card。一般完整執行時，Agent 寫入前逐條檢查，不符合就修改並重新檢查；部分執行、本次明確例外及無法通過的情況依憲法處理。
+
+反覆修正後確認的要求，經使用者明確指示，更新對應 Standard Card 或專案憲法，作為長期保留的規則。
+
+## 驗證與改善流程
+
+建立流程、首次使用新類型材料，或修改提示詞、workflow 執行方式、專案憲法後，依[流程驗證程序](docs/流程驗證.md)試跑新材料與特殊案例。失敗時先定位原因，修正後重新執行，確認問題解決且原有品質保留。日常產出仍依上面的執行順序，不必每次另跑驗證案例。
+
+開始驗證時，提供另一份課程材料的路徑，請 Agent 執行 `docs/流程驗證.md`。程序會指定驗證用的輸入、輸出與 Blog 銜接路徑，結果另存於 `docs/工作紀錄/`，不覆寫正式設定與既有產出。

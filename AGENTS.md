@@ -10,6 +10,8 @@
 
 `prompts/`、`standard-cards/`、`workflow/`、`output/` 統一依用途分成 `預期學習成果/`、`blog/` 子目錄。文件中的路徑以 repo 根目錄為基準。
 
+修改 `prompts/`、`standard-cards/`、`workflow/` 前，先讀取並遵守 `docs/project-constitution.md` 的專案共用規則。
+
 Git：直接在 `main` 上 commit，不開 feature branch。
 
 ## Herdr 協作
