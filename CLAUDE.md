@@ -4,11 +4,17 @@
 
 - `prompts/`：提示詞，換課程時不修改
 - `standard-cards/`：驗收標準，跟提示詞同名，按 Must Have／Must Preserve／Must Fit／Must Not 分類
-- `workflow/`：每次執行的設定（課程名稱、逐字稿路徑、輸出位置），換課程時只改這裡
-- `課程材料/`：逐字稿等輸入
+- `workflow/`：固定執行規則與「材料 ↔ 輸出」產出對應表；新增材料時直接放入 `課程材料/`，由 Agent 自動掃描、確認是否重跑並維護對應表
+- `課程材料/`：逐字稿等輸入（每個檔案代表一份獨立材料）
 - `output/`：產出結果
 
 `prompts/`、`standard-cards/`、`workflow/`、`output/` 統一依用途分成 `預期學習成果/`、`blog/` 子目錄。文件中的路徑以 repo 根目錄為基準。
+
+執行 workflow 時：
+- 「跑 workflow」或同時指定兩份 workflow：依序執行 `workflow/預期學習成果/workflow-重建學習成果.md` 與 `workflow/blog/workflow-轉成blog.md`。
+- 「用 `課程材料/xxx.md` 跑 workflow」：只針對該份材料執行流程。
+- 「跑學習成果 workflow」或「跑 blog workflow」：只執行指定階段。
+- 動工前先讀取 `workflow/` 的「產出對應表」並只列出 `課程材料/` 與 `output/` 的檔名（確認前不讀取材料內文，以免篇幅長或檔案多時卡在讀取），向使用者回報現況、確認要處理哪些材料及既有輸出是否覆蓋後，才讀取規則與目標材料內文執行；完成後自動更新對應表。
 
 修改 `prompts/`、`standard-cards/`、`workflow/` 前，先讀取並遵守 `docs/project-constitution.md` 的專案共用規則。
 
