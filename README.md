@@ -1,11 +1,15 @@
 # loopxharness
 
-這個專案把課程材料依序整理成學習成果與 blog 草稿。每次換課程，在 `workflow/` 更新本次使用的材料與輸出路徑。
+這個專案把課程材料依序整理成學習成果與 blog 草稿。`課程材料/` 中的每個檔案代表一份獨立材料，對應一份學習筆記（`output/預期學習成果/`）與一份部落格文章（`output/blog/`）。
 
 ## 執行順序
 
-1. 將逐字稿等輸入放入 `課程材料/`，設定並執行[重建學習成果 workflow](workflow/預期學習成果/workflow-重建學習成果.md)。
-2. 單獨執行[轉成 blog workflow](workflow/blog/workflow-轉成blog.md) 時，先將學習成果的實際檔名填入「Prompt 1：進階學習筆記」欄位；兩份 workflow 一起交給 Agent 執行時，由 Agent 依專案憲法銜接。
+1. **放入材料**：把新的逐字稿或課程材料放進 `課程材料/`，**不必手動去改 `workflow/` 裡的檔名**。
+2. **請 Agent 執行 workflow**：
+   - 依序執行[重建學習成果 workflow](workflow/預期學習成果/workflow-重建學習成果.md) 與[轉成 blog workflow](workflow/blog/workflow-轉成blog.md)。
+   - Agent 會先掃描 `課程材料/` 並對照 `workflow/` 內的「產出對應表」：
+     - **新材料（尚無對應輸出）**：直接產出學習筆記與 Blog，並在完成後自動把新檔案路徑登記回 `workflow/` 對應表。
+     - **已有對應輸出的材料**：Agent 會先停下來詢問你「是否真的要重新跑一次流程？」，確認要重跑才會覆蓋或重新產出，避免正式使用時重複消耗資源。
 
 ## 規則分工
 

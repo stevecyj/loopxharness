@@ -4,8 +4,8 @@
 
 - `prompts/`：提示詞，換課程時不修改
 - `standard-cards/`：驗收標準，跟提示詞同名，按 Must Have／Must Preserve／Must Fit／Must Not 分類
-- `workflow/`：每次執行的設定（課程名稱、逐字稿路徑、輸出位置），換課程時只改這裡
-- `課程材料/`：逐字稿等輸入
+- `workflow/`：固定執行規則與「材料 ↔ 輸出」產出對應表；新增材料時直接放入 `課程材料/`，由 Agent 自動掃描、確認是否重跑並維護對應表
+- `課程材料/`：逐字稿等輸入（每個檔案代表一份獨立材料）
 - `output/`：產出結果
 
 `prompts/`、`standard-cards/`、`workflow/`、`output/` 統一依用途分成 `預期學習成果/`、`blog/` 子目錄。文件中的路徑以 repo 根目錄為基準。
