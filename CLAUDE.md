@@ -16,7 +16,7 @@
 - 「跑學習成果 workflow」或「跑 blog workflow」：只執行指定階段。
 - 動工前先讀取 `workflow/` 的「產出對應表」並只列出 `課程材料/` 與 `output/` 的檔名（確認前不讀取材料內文，以免篇幅長或檔案多時卡在讀取），向使用者回報現況、確認要處理哪些材料、既有輸出是否覆蓋，以及有無額外課程筆記或個人實作經驗／想法（預設為無）後，才讀取規則與目標材料內文執行；完成後自動更新對應表。
 
-修改 `prompts/`、`standard-cards/`、`workflow/` 前，先讀取並遵守 `docs/project-constitution.md` 的專案共用規則。
+修改 `CLAUDE.md`、`AGENTS.md`、`docs/`、`prompts/`、`standard-cards/`、`workflow/` 的規則前，先讀取並遵守 `docs/project-constitution.md`（含第 08 節規則修改連動檢查），並保持 `CLAUDE.md` 與 `AGENTS.md` 一致。
 
 Git：直接在 `main` 上 commit，不開 feature branch。
 
